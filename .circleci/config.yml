@@ -52,7 +52,7 @@ workflows:
       - Hold-for-Approval:
           type: approval
           requires:
-            - Fuga
+            - Using-Node
             - Fetch-Code
       - Now-Complete:
           requires:
